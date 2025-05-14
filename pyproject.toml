@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "flask-backend"
+version = "0.1.0"
+description = "Backend server using Flask for data saving"
+authors = ["mlasker0 <shantulasker30@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
