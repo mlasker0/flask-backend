@@ -3,7 +3,6 @@ name = "flask-backend"
 version = "0.1.0"
 description = ""
 authors = ["mlasker0 <shantulasker30@gmail.com>"]
-package-mode = false  # ← এই লাইনটি যোগ করুন ✅
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -11,5 +10,5 @@ flask = "^2.3.2"
 flask-cors = "^5.0.1"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
